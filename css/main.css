@@ -1,0 +1,282 @@
+/**BASE STYLES**/
+
+p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 18px;
+  }
+
+
+/***** GRID *****/
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header {
+    height: 800px;
+    background: url('../img/header-image2.png');
+    background-size: cover;
+}
+
+
+nav {
+    float: right;
+    padding: 10px 60px 10px 40px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #e2d3c9;
+    padding-left: 80px;
+}
+
+header h1 {
+    padding: 50px 0 0 25px;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 0;
+    font-family: 'Bad Script', cursive;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 100px;
+    color: #e2d3c9;
+}
+
+header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #232222;
+    padding-left: 200px;
+    margin-top: 0;
+    line-height: 20px;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 75px 0 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+/*****ABOUT*****/
+
+#about{
+  background-color: #2a7275;
+  background-size: cover;
+  height: 600px;
+}
+
+#about .full-width {
+    padding: 50px 0;
+
+
+}
+
+#about h2{
+    font-family: 'Roboto', serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #232222;
+    margin: 10px auto;
+    padding-top: 5px;
+    text-transform: uppercase;
+
+}
+
+#about img{
+    height: 400px;
+    width: 400px;
+    padding: 50px 50px 0 100px;
+
+}
+
+#about p{
+    font-size:18px;
+    font-weight: 300;
+    color: #e2d3c9;
+    line-height: 34px;
+    padding: 0 20px 20px;
+    margin: 50px 20px auto;
+}
+
+/**SKILLS**/
+
+#skills {
+background-color: #584850;
+background-size: cover;
+height: 300px;
+
+
+}
+
+#skills .full-width {
+    padding: 50px 0;
+}
+
+#skills img{
+    padding-left: 175px;
+}
+
+#skills h2{
+    font-family: 'Roboto', serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #232222;
+    text-transform:uppercase;
+}
+
+#skills h3{
+    font-family: 'Roboto', serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #e2d3c9;
+    margin: 10px 10px 0;
+    padding:20px 20px 0;
+    text-align: center;
+
+  }
+
+  #skills p{
+    color: #e2d3c9;
+    text-align: center;
+    padding: 10px;
+
+  }
+
+/***** PROJECTS *****/
+
+#projects {
+    background-color: #2a7275;
+    background-size: cover;
+    height: 600px;
+
+}
+
+#projects .full-width {
+    padding: 50px 0;
+}
+
+ #projects img {
+    width: 300px;
+    height: 200px;
+    padding-left: 50px;
+    margin-top: 25px;
+
+}
+
+#projects h2{
+  font-family: 'Roboto', serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: #232222;
+  text-transform:uppercase;
+  padding-bottom: 50px;
+}
+
+#projects h3 {
+  font-family: 'Roboto', serif;
+  font-size: 26px;
+  font-weight: 300;
+  color: #e2d3c9;
+  margin: 0 10px 10px;
+  padding:20px 20px 0;
+  text-align: center;
+}
+
+#projects p {
+  color: #e2d3c9;
+  text-align: center;
+  padding: 10px;
+}
+
+/***** CONTACT *****/
+
+#contact{
+  background-color: #584850;
+  height: 400px;
+}
+
+#contact .full-width {
+    padding-top: 125px;
+
+}
+
+#contact h2{
+  font-family: 'Bad Script', cursive;
+  font-size: 54px;
+  font-weight: 300;
+  text-align: center;
+  color: #232222;
+  float: left;
+  padding-left: 150px;
+
+}
+
+#contact img{
+  height: 100px;
+  width: 100px;
+  padding-top: 30px;
+
+}
+
+#contact h3{
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  text-align: left;
+  font-weight: 300;
+  color: #232222;
+  padding-top: 10px;
+
+}
+
+#contact a{
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  text-align: left;
+  font-weight: bold;
+  color: #232222;
+
+}
+
+/***** FOOTER *****/
+footer{
+  height: 50px;
+  background-color: #584850;
+  background-size: cover;
+
+}
+
+
+footer p{
+  font-size: 12px;
+  color: #232222;
+  margin: 0;
+  padding-top: 30px;
+  text-align: right;
+}
